@@ -1,3 +1,3 @@
 # pytorch-env
-python run.py
+python run.py \\
 run your scripts in run.py
