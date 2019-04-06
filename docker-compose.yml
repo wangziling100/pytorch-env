@@ -2,6 +2,9 @@ version: '3.4'
 
 services:
     pytorch:
+        build:
+          context: .
+          dockerfile: ./Dockerfile
         image: pytorch/pytorch
         container_name: pytorch
         hostname: pytorch

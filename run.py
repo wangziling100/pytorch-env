@@ -1,5 +1,4 @@
 import subprocess
-import time
 
 
 # the current workspace has the same path with the in your docker container,
@@ -19,8 +18,8 @@ commands = [
     # cmd type: 
     # 1. synchronous
     # 2. asynchronous
-    [base_command + 'test.py', 'synchronous', True],
-    
+    #[base_command + 'test.py', 'synchronous', True],
+    [base_command + 'cnn_example.py', 'synchronous', True],
     [end_command, 'synchronous', True]
         ]
 
